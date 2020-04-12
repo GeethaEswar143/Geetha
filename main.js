@@ -4,21 +4,21 @@
       delay: 1000,
     });
 
-    sr.reveal('#chat1, #chat3, #chat5, #chat7', {
+    sr.reveal('#chat1, #chat3, #chat5, #chat6, #chat8', {
       viewFactor: 0.2,
-      delay: 3000,
+      delay: 2000,
       duration: 2000,
       origin: 'top',
       distance: '20px',
-    }, 4000)
+    }, 3000)
 
-    sr.reveal('#chat2, #chat4, #chat6', {
+    sr.reveal('#chat2, #chat4, #chat7', {
       viewFactor: 0.2,
-      delay: 5000,
+      delay: 3000,
       duration: 2000,
       origin: 'bottom',
       distance: '20px',
-    }, 4000)
+    }, 3000)
 
 
 
